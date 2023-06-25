@@ -11,18 +11,18 @@ NourishNova is a comprehensive nutrition app specifically designed to tackle stu
 ## 🔧 How we built it:
 NourishNova was built using a combination of technologies and methodologies. The backend utilizes the FastAPI framework, enabling the development of fast and efficient web APIs. The frontend is designed with Streamlit, an open-source app framework in Python, providing an intuitive and user-friendly interface for students. Additionally, extensive research and collaboration with campus dining services and community organizations were conducted to gather accurate and up-to-date information on available resources.
 
-### Dataset
+### Dataset:
 I used Food.com kaggle dataset Data with over 500,000 recipes and 1,400,000 reviews from Food.com. Visit this [kaggle](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews?select=recipes.csv) link for more details.
 
-### Backend Developement
+### Backend Developement:
 
 The application is built using the FastAPI framework, which allows for the creation of fast and efficient web APIs. When a user makes a request to the API (user data,nutrition data...) the model is used to generate a list of recommended food similar/suitable to his request (data) which are then returned to the user via the API.
 
-### Frontend Developement
+### Frontend Developement:
 
 The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. For our case the front-end is composed of three web pages. The main page is Hello.py which is a welcoming page used to introduce you to my project. The side bar on the left allows the user to navigate too the automatic diet recommendation page and the custom food recommendation page. In the diet recommendation page the user can fill information about his age,weight,height.. and gets a diet recommendation based on his information. Besides, the custom food recommendation allows the user to specify more his food preferency using nutritional values.
 
-## Technologies
+## Technologies:
 The project is created with:
 * Python: 3.10.8
 * fastapi 0.88.0
