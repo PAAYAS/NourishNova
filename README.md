@@ -1,9 +1,6 @@
 <h1 align="center">NourishNova</h1>
-<div align= "center"><img src="Assets/logo_img1.jpg" />
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
-
-# Diet-Recommendation-System
 
 ## :bookmark_tabs:Table of contents
 * [General info](#general-info)
@@ -19,7 +16,6 @@ A food recommendation engine using a content-based approach is an important tool
 
 ### What is a content-based recommendation engine?
 A content-based recommendation engine is a type of recommendation system that uses the characteristics or content of an item to recommend similar items to users. It works by analyzing the content of items, such as text, images, or audio, and identifying patterns or features that are associated with certain items. These patterns or features are then used to compare items and recommend similar ones to users.
-<div align= "center"><img src="Assets/content_based_img.webp" /></div>
 
 ### Why content-based approach?
 
@@ -49,17 +45,7 @@ The application is built using the FastAPI framework, which allows for the creat
 
 The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. For our case the front-end is composed of three web pages. The main page is Hello.py which is a welcoming page used to introduce you to my project. The side bar on the left allows the user to navigate too the automatic diet recommendation page and the custom food recommendation page. In the diet recommendation page the user can fill information about his age,weight,height.. and gets a diet recommendation based on his information. Besides, the custom food recommendation allows the user to specify more his food preferency using nutritional values.
 
-### Deployement using Docker
-#### Why Docker?
-By using Docker, you can ensure that the environment in which the application is exactly the same as the environment in which it was built, which can help prevent unexpected issues and improve model performance. Additionally, Docker allows for easy scaling and management of the deployment, making it a great choice for larger machine learning projects.
-#### Docker-Compose
-My project is composed of different services (frontend,API). Therefore, our application should run on multiple containers. With the help of Docker-compose we can share our application using the yaml file that define the services that runs together.
-
 ### Project Architecture
-
-<div align= "center"><img src="Assets/Architecture_diagram.png" width="600" height="400"/></div>
-
-
 ## :rocket: Technologies
 The project is created with:
 * Python: 3.10.8
@@ -74,21 +60,20 @@ The project is created with:
 
 ![](https://img.icons8.com/color/48/null/python--v1.png)![](https://img.icons8.com/color/48/null/numpy.png)![](Assets/streamlit-icon-48x48.png)![](Assets/fastapi.ico)![](Assets/scikit-learn.ico) ![](https://img.icons8.com/color/48/null/pandas.png)
 
-## :whale: Setup
+## Setup
 
 ### Run it locally
 #### Clone the repo
 ```
-$ git clone https://github.com/zakaria-narjis/Diet-Recommendation-System
+$ git clone https://github.com/PAAYAS/NourishNova.git
 ```
-### docker-compose
-In the project root run:
+Go to Streamlit_Frontend directory and run:
 ```
-$ docker-compose up -d --build
+$ python -m streamlit run NourishNova.py
+```
+```
+Go to FastAPI_Backend directory and run:
+```
+$ python -m uvicorn main:app
 ```
 Then open http://localhost:8501 and enjoy :smiley:.
-
-PS: You should have docker and docker-compose already installed
-### Use the hosted version on Streamlit Cloud
-
-https://diet-recommendation-system.streamlit.app/
