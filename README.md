@@ -1,3 +1,4 @@
+<div>
 <h1 align="center">NourishNova</h1>
   <h4>Empowering you to make nutritious choices</h4>
 </div>
