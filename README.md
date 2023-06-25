@@ -2,12 +2,6 @@
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
-## :bookmark_tabs:Table of contents
-* [General info](#general-info)
-* [Development](#development)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
 ## 🌟 Inspiration:
 The inspiration behind NourishNova stems from the pressing issue of student food insecurity. Recognizing the need for innovative solutions to address this challenge, the project aims to utilize technology to connect students with resources and revamp campus dining. By creating sustainable food assistance programs, NourishNova seeks to empower college and university students to find affordable and nutritious meals, ensuring their well-being and academic success.
 
@@ -79,7 +73,6 @@ $ git clone https://github.com/PAAYAS/NourishNova.git
 Go to Streamlit_Frontend directory and run:
 ```
 $ python -m streamlit run NourishNova.py
-```
 ```
 Go to FastAPI_Backend directory and run:
 ```
