@@ -1,6 +1,6 @@
 <div>
 <h1 align="center">NourishNova 🥗
-Empowering you to make nutritious choices
+<br>Empowering you to make nutritious choices
 </h1>
 </div>
 
